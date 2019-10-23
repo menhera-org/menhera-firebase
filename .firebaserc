@@ -1,5 +1,26 @@
 {
   "projects": {
     "default": "menhera-org"
+  },
+  "targets": {
+    "menhera-org": {
+      "hosting": {
+        "default": [
+          "menhera-org"
+        ],
+        "menhera": [
+          "menhera"
+        ],
+        "api": [
+          "menhera-api"
+        ],
+        "static": [
+          "menhera-static"
+        ],
+        "h09-eu": [
+          "h09-eu"
+        ]
+      }
+    }
   }
 }
